@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void)
+{
+	int price;
+
+	printf("数字を入力してください : ");
+	scanf("%d", &price);
+
+	printf("一割引き　= %d円n", (int)(price * 0.9));
+
+	return 0;
+}
